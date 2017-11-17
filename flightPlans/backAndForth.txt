@@ -1,0 +1,57 @@
+autoInit 500 800 4000 0.5
+setReference $POSE$
+setInitialReachDist 0.2
+setStayWithinDist 0.3
+lockScaleFP
+
+setMaxControl 0.25
+goto 0 0 0 0
+goto 0 0 1 0
+goto 0 0 0 0
+goto 0 0 1 0
+goto 0 0 0 0
+
+
+setMaxControl 0.30
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+setStayTime 1
+goto 0.00 10 0.00 0
+goto 0.00 0.0 0.00 0
+
+land
